@@ -1,7 +1,7 @@
 'use client'
 import { Tab } from '@headlessui/react'
 import { ProjectCard } from './projects/ProjectCard'
-import { works } from '@/lib/projects'
+import { works, projects, clones } from '@/lib/projects'
 
 export default function ProjectTabs() {
 	return (
@@ -23,15 +23,38 @@ export default function ProjectTabs() {
 						{works.map((project) => (
 							<ProjectCard
 								key={project.id}
-								domain={project.domain}
+								name={project.name}
 								description={project.description}
 								image={project.image}
 								stack={project.stack}
+								url={project.url}
 							/>
 						))}
 					</Tab.Panel>
-					<Tab.Panel>Content 2</Tab.Panel>
-					<Tab.Panel>Content 3</Tab.Panel>
+					<Tab.Panel className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+						{projects.map((project) => (
+							<ProjectCard
+								key={project.id}
+								name={project.name}
+								description={project.description}
+								image={project.image}
+								stack={project.stack}
+								url={project.url}
+							/>
+						))}
+					</Tab.Panel>
+					<Tab.Panel className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+						{clones.map((project) => (
+							<ProjectCard
+								key={project.id}
+								name={project.name}
+								description={project.description}
+								image={project.image}
+								stack={project.stack}
+								url={project.url}
+							/>
+						))}
+					</Tab.Panel>
 				</Tab.Panels>
 			</Tab.Group>
 		</div>
