@@ -1,11 +1,17 @@
 import React from 'react'
-import { AstroIcon, ReactIcon } from '../Icons'
 
-export function ProjectCard() {
+interface Props {
+	domain: string
+	description: string
+	image: string
+	stack: any
+}
+
+export function ProjectCard({ domain, description, image, stack }: Props) {
 	return (
 		<div className='relative overflow-hidden group'>
 			<img
-				src='/work-1.png'
+				src={image}
 				alt=''
 				loading='lazy'
 				className='rounded-xl aspect-[1920/977]'
@@ -27,15 +33,12 @@ export function ProjectCard() {
               transition-opacity
               duration-300'
 			>
-				<h4 className='font-bold'>thecultureclan.com</h4>
-				<p className='text-xs text-white'>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quo aliquam
-					ratione ut repellat, necessitatibus sed sequi blanditiis quos! Blanditiis
-					saepe voluptas earum corrupti quia possimus, quam magnam. Iusto, autem.
-				</p>
+				<h4 className='font-bold'>{domain}</h4>
+				<p className='text-xs text-white'>{description}</p>
 				<div className='flex items-center justify-center gap-x-4'>
-					<AstroIcon styles='w-6 h-6' />
-					<ReactIcon styles='w-6 h-6' />
+					{stack.map((IconComponent: any, index: number) => (
+						<IconComponent key={index} styles='w-5 h-5' />
+					))}
 				</div>
 			</div>
 		</div>
