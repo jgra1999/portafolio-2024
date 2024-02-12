@@ -10,7 +10,7 @@ export const works = [
 		stack: [AstroIcon, ReactIcon, TailwindIcon]
 	},
 	{
-		id: 1,
+		id: 2,
 		domain: 'koalavzla.com',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quo aliquam ratione ut repellat, necessitatibus sed sequi blanditiis quos! Blanditiis saepe voluptas earum corrupti quia possimus',
