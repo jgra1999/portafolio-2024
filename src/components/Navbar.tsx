@@ -20,7 +20,7 @@ export default function Navbar() {
 		<Disclosure
 			id='header-nav'
 			as='nav'
-			className='bg-transparent fixed w-full py-4'
+			className='bg-transparent fixed w-full py-4 z-50'
 		>
 			{({ open }) => (
 				<>
