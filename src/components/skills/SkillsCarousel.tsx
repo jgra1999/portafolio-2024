@@ -10,7 +10,7 @@ import { skills } from '@/lib/skills'
 
 export function SkillsCarousel() {
 	return (
-		<Carousel opts={{ loop: true }}>
+		<Carousel opts={{ loop: true }} className='w-11/12'>
 			<CarouselContent>
 				{skills.map((skill, index) => (
 					<CarouselItem key={index} className='md:basis-1/2 lg:basis-1/3'>
