@@ -1,0 +1,11 @@
+{
+	"Navbar": {
+		"home": "Home",
+		"projects": "Projects",
+		"skills": "Skills"
+	},
+
+	"Index": {
+		"greetings": "Welcome to my Portafolio"
+	}
+}
