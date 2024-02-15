@@ -2,8 +2,8 @@
 
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import { LinkedinIcon, MailIcon, WhatsappIcon } from './Icons'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { LinkedinIcon, GithubIcon, WhatsappIcon } from './Icons'
 
 export default function Navbar() {
 	const navigation = [
@@ -83,7 +83,7 @@ export default function Navbar() {
 										href='#'
 										className='block border border-white rounded-full p-1.5 opacity-80 active:opacity-100 lg:hover:opacity-100'
 									>
-										<MailIcon />
+										<GithubIcon />
 									</a>
 									<a
 										href='#'
