@@ -4,12 +4,19 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { LinkedinIcon, GithubIcon, WhatsappIcon } from './Icons'
+import { LanguageSelector } from './ui/LanguageSelector'
 
-export default function Navbar() {
+interface Props {
+	link1: string
+	link2: string
+	link3: string
+}
+
+export default function Navbar({ link1, link2, link3 }: Props) {
 	const navigation = [
-		{ name: 'Home', href: '#', current: true },
-		{ name: 'Projects', href: '#', current: false },
-		{ name: 'Skill', href: '#', current: false }
+		{ name: link1, href: '#', current: true },
+		{ name: link2, href: '#', current: false },
+		{ name: link3, href: '#', current: false }
 	]
 
 	/* function classNames(...classes) {
@@ -92,12 +99,7 @@ export default function Navbar() {
 										<WhatsappIcon />
 									</a>
 								</div>
-								<a
-									href='#'
-									className='py-2 px-4 border border-white opacity-80 active:opacity-100 lg:hover:opacity-100'
-								>
-									Contact me
-								</a>
+								<LanguageSelector currentLocale={link1 === 'Inicio' ? 'es' : 'en'} />
 							</div>
 						</div>
 					</div>
