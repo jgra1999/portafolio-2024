@@ -5,7 +5,17 @@
 		"skills": "Skills"
 	},
 
-	"Index": {
-		"greetings": "Welcome to my Portafolio"
+	"Intro": {
+		"greetings": "Welcome to my Portafolio",
+		"aboutMe1": "I am Jose Gabriel, I started to study Computer Engineering by a friend and discovered the Web Development by chance with the only class of Web Programming that I saw in the university because the teacher did not attend anymore, since then I enjoy the development of web experiences for users.",
+		"aboutMe2": "My greatest achievement is never to give up learning Web Development in a technologically backward country with one of the most difficult conditions to grow in the world of technology."
+	},
+
+	"Projects": {
+		"title": "Projects",
+		"description": "Here are some of my most recent projects, among them are both personal projects and works done as a freelancer making use of different technologies such as NextJS, Astro or Tailwindcss, among others. ",
+		"tab1": "Works",
+		"tab2": "Personal Projects",
+		"tab3": "Clones"
 	}
 }

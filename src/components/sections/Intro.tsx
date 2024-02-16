@@ -5,7 +5,13 @@ import { ArrowRightCircleIcon } from '@heroicons/react/24/outline'
 import { useEffect, useRef } from 'react'
 import Typed from 'typed.js'
 
-export default function Intro() {
+interface Props {
+	greetings: string
+	aboutMe1: string
+	aboutMe2: string
+}
+
+export default function Intro({ greetings, aboutMe1, aboutMe2 }: Props) {
 	const type = useRef(null)
 
 	useEffect(() => {
@@ -26,20 +32,17 @@ export default function Intro() {
 			<article className='grid grid-cols-1 md:grid-cols-2'>
 				<div className='space-y-5'>
 					<span className='font-semibold text-lg bg-gradient-to-r from-violet-950 to-purple-900 border border-white p-2 px-4'>
-						Welcome to my Portafolio
+						{greetings}
 					</span>
 					<h1 className='text-4xl md:text-6xl font-bold'>
-						Hi! I'm Jose Rojas <span ref={type}></span>
+						Hi! I'm Jose Rojas <br /> <span ref={type}></span>
 					</h1>
-					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum dolore
-						ut, et tempora eligendi soluta, rem saepe adipisci aliquid quis, nobis
-						nam. Qui ex sunt vero suscipit dolore accusamus repudiandae.
-					</p>
-					<button className='flex items-center gap-x-2 text-lg pt-8 text-white/70 active:text-white hover:text-white'>
+					<p>{aboutMe1}</p>
+					<p>{aboutMe2}</p>
+					{/* <button className='flex items-center gap-x-2 text-lg pt-8 text-white/70 active:text-white hover:text-white'>
 						Let's Connect
 						<ArrowRightCircleIcon className='w-5 h-5' />
-					</button>
+					</button> */}
 				</div>
 				<div className='relative hidden md:block'>
 					<img
