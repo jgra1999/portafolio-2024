@@ -11,9 +11,6 @@ import { useTranslations } from 'next-intl'
 export default function Home() {
 	const navT = useTranslations('Navbar')
 	const t = useTranslations('Intro')
-	const projectsT = useTranslations('Projects')
-	const skillsT = useTranslations('Skills')
-	const contactT = useTranslations('Contact')
 
 	return (
 		<main>
@@ -23,15 +20,9 @@ export default function Home() {
 				aboutMe1={t('aboutMe1')}
 				aboutMe2={t('aboutMe2')}
 			/>
-			<Projects
-				title={projectsT('title')}
-				description={projectsT('description')}
-				tab1={projectsT('tab1')}
-				tab2={projectsT('tab2')}
-				tab3={projectsT('tab3')}
-			/>
-			<Skills title={skillsT('title')} description={skillsT('description')} />
-			<Contact title={contactT('title')} />
+			<Projects />
+			<Skills />
+			<Contact />
 			<Footer />
 		</main>
 	)
