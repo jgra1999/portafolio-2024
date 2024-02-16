@@ -7,8 +7,7 @@ interface Props {
 	tabs: string[]
 }
 
-export default function Projectnames({ tabs }: Props) {
-	console.log('🚀 ~ Projectnames ~ tabs:', tabs)
+export function ProjectTabs({ tabs }: Props) {
 	return (
 		<div className='flex flex-col items-center max-w-[90%]'>
 			<Tab.Group>

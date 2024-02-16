@@ -5,10 +5,10 @@ import {
 } from '@heroicons/react/24/outline'
 import React from 'react'
 
-export default function Contact() {
+export default function Contact({ title }: { title: string }) {
 	return (
 		<section className='bg-gradient-to-r from-violet-950 to-purple-900 pt-48 pb-20 -mt-40 text-center'>
-			<h2>Get In Touch</h2>
+			<h2>{title}</h2>
 			<div className='grid grid-cols-1 md:grid-cols-2 mt-10 gap-y-8'>
 				<div className='flex flex-col items-center gap-y-5'>
 					<div className='flex gap-x-1 items-center'>

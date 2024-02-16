@@ -12,6 +12,9 @@ export default function Home() {
 	const navT = useTranslations('Navbar')
 	const t = useTranslations('Intro')
 	const projectsT = useTranslations('Projects')
+	const skillsT = useTranslations('Skills')
+	const contactT = useTranslations('Contact')
+
 	return (
 		<>
 			<Navbar link1={navT('home')} link2={navT('projects')} link3={navT('skills')} />
@@ -21,14 +24,14 @@ export default function Home() {
 				aboutMe2={t('aboutMe2')}
 			/>
 			<Projects
-				projects={projectsT('title')}
+				title={projectsT('title')}
 				description={projectsT('description')}
 				tab1={projectsT('tab1')}
 				tab2={projectsT('tab2')}
 				tab3={projectsT('tab3')}
 			/>
-			<Skills />
-			<Contact />
+			<Skills title={skillsT('title')} description={skillsT('description')} />
+			<Contact title={contactT('title')} />
 			<Footer />
 		</>
 	)

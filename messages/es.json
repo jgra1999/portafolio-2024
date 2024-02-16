@@ -14,8 +14,17 @@
 	"Projects": {
 		"title": "Proyectos",
 		"description": "Aquí hay algunos de mis proyectos mas recientes, entre ellos se encuentran tanto proyectos personales como trabajos realizados como freelancer haciendo uso de diferentes tecnologías como NextJS, Astro o Tailwindcss, entre otros. ",
-		"tab1": "Trabajo",
+		"tab1": "Trabajos",
 		"tab2": "Proyectos Personales",
 		"tab3": "Clones"
+	},
+
+	"Skills": {
+		"title": "Habilidades",
+		"description": "Estas son las tecnologías Frontend y Backend que utilizo actualmente para desarrollar todas mis aplicaciones web."
+	},
+
+	"Contact": {
+		"title": "Ponte en Contacto"
 	}
 }

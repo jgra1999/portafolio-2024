@@ -17,5 +17,14 @@
 		"tab1": "Works",
 		"tab2": "Personal Projects",
 		"tab3": "Clones"
+	},
+
+	"Skills": {
+		"title": "Skills",
+		"description": "These are the Frontend and Backend technologies that I currently use to develop all my web applications."
+	},
+
+	"Contact": {
+		"title": "Get in Touch"
 	}
 }
