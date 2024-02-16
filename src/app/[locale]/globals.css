@@ -13,7 +13,7 @@ h2 {
 }
 
 p {
-	@apply text-white/60;
+	@apply text-sm sm:text-base text-white/70 text-pretty;
 }
 
 ::-webkit-scrollbar {
