@@ -16,7 +16,7 @@ export default function Home() {
 	const contactT = useTranslations('Contact')
 
 	return (
-		<>
+		<main>
 			<Navbar link1={navT('home')} link2={navT('projects')} link3={navT('skills')} />
 			<Intro
 				greetings={t('greetings')}
@@ -33,6 +33,6 @@ export default function Home() {
 			<Skills title={skillsT('title')} description={skillsT('description')} />
 			<Contact title={contactT('title')} />
 			<Footer />
-		</>
+		</main>
 	)
 }
