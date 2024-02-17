@@ -11,7 +11,10 @@ export default function Contact() {
 	const t = useTranslations('Contact')
 
 	return (
-		<section className='bg-gradient-to-r from-violet-950 to-purple-900 pt-48 pb-20 -mt-40 text-center'>
+		<section
+			id='contact'
+			className='bg-gradient-to-r from-violet-950 to-purple-900 pt-48 pb-20 -mt-40 text-center'
+		>
 			<h2>{t('title')}</h2>
 			<div className='grid grid-cols-1 md:grid-cols-2 mt-10 gap-y-8'>
 				<div className='flex flex-col items-center gap-y-5'>

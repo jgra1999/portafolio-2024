@@ -28,7 +28,10 @@ export default function Intro({ greetings, aboutMe1, aboutMe2 }: Props) {
 		}
 	}, [])
 	return (
-		<section className='bg-heroImg flex items-center px-8 md:px-14 h-[700px] md:h-screen w-full'>
+		<section
+			id='home'
+			className='bg-heroImg flex items-center px-8 md:px-14 h-[700px] md:h-screen w-full'
+		>
 			<article className='grid grid-cols-1 md:grid-cols-2'>
 				<div className='space-y-5'>
 					<span className='font-semibold text-lg bg-gradient-to-r from-violet-950 to-purple-900 border border-white p-2 px-4'>

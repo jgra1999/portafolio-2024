@@ -14,9 +14,9 @@ interface Props {
 
 export default function Navbar({ link1, link2, link3 }: Props) {
 	const navigation = [
-		{ name: link1, href: '#', current: true },
-		{ name: link2, href: '#', current: false },
-		{ name: link3, href: '#', current: false }
+		{ name: link1, href: '#home' },
+		{ name: link2, href: '#projects' },
+		{ name: link3, href: '#skills' }
 	]
 
 	/* function classNames(...classes) {
@@ -65,12 +65,7 @@ export default function Navbar({ link1, link2, link3 }: Props) {
 											<a
 												key={item.name}
 												href={item.href}
-												className={`${
-													item.current
-														? 'underline decoration-violet-500 underline-offset-8'
-														: 'hover:underline decoration-white underline-offset-8'
-												}`}
-												aria-current={item.current ? 'page' : undefined}
+												className='hover:underline decoration-white underline-offset-8 ui-active:underline ui-active:decoration-violet-500'
 											>
 												{item.name}
 											</a>
@@ -114,7 +109,6 @@ export default function Navbar({ link1, link2, link3 }: Props) {
 									as='a'
 									href={item.href}
 									className='block rounded-md px-3 py-2 text-base font-medium'
-									aria-current={item.current ? 'page' : undefined}
 								>
 									{item.name}
 								</Disclosure.Button>
