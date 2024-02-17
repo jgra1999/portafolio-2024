@@ -81,13 +81,15 @@ export default function Navbar({ link1, link2, link3 }: Props) {
 							<div className='flex items-center gap-x-5'>
 								<div className='flex item-center gap-x-2'>
 									<a
-										href='#'
+										href='https://www.linkedin.com/in/jose-rojas-01aa79228/'
+										target='_blank'
 										className='block border border-white rounded-full p-1.5 opacity-80 active:opacity-100 lg:hover:opacity-100'
 									>
 										<LinkedinIcon />
 									</a>
 									<a
-										href='#'
+										href='https://github.com/jgra1999'
+										target='_blank'
 										className='block border border-white rounded-full p-1.5 opacity-80 active:opacity-100 lg:hover:opacity-100'
 									>
 										<GithubIcon />

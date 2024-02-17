@@ -41,9 +41,13 @@ export default function Contact() {
 						<div className='bg-white/20 border border-white rounded-xl py-2 px-4 w-72 sm:w-96 text-start'>
 							Jose-Rojas-CV.pdf
 						</div>
-						<button className='bg-white text-black rounded-xl px-4'>
+						<a
+							href='/Jose-Rojas-CV.pdf'
+							target='_blank'
+							className='bg-white text-black rounded-xl px-4 flex items-center'
+						>
 							<DocumentMagnifyingGlassIcon className='w-6 h-6' />
-						</button>
+						</a>
 					</div>
 				</div>
 			</div>
