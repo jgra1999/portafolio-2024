@@ -21,8 +21,8 @@ export function CopyToClipboard({ children }: { children: React.ReactNode }) {
 			className='bg-white text-black rounded-xl px-4 relative'
 		>
 			<span
-				className={`absolute top-0 left-0 transition-all duration-300 font-semibold ${
-					copied ? 'opacity-100 text-green-400 -top-6' : 'opacity-0'
+				className={`absolute left-0 transition-all duration-300 font-semibold ${
+					copied ? 'opacity-100 text-green-400 -top-6' : 'opacity-0 top-0'
 				}`}
 			>
 				Copied!
