@@ -20,6 +20,7 @@ export function ProjectCard({ name, description, image, stack, url }: Props) {
 
 			<a
 				href={url}
+				target='_blank'
 				className='flex
 			  flex-col
 			  justify-center

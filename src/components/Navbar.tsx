@@ -13,15 +13,13 @@ interface Props {
 }
 
 export default function Navbar({ link1, link2, link3 }: Props) {
+	// const [isActive, setIsActive] = useState(false);
+
 	const navigation = [
 		{ name: link1, href: '#home' },
 		{ name: link2, href: '#projects' },
 		{ name: link3, href: '#skills' }
 	]
-
-	/* function classNames(...classes) {
-		return classes.filter(Boolean).join(' ')
-	} */
 
 	return (
 		<Disclosure
