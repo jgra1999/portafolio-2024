@@ -36,7 +36,7 @@ export const projects = [
 		name: 'Larri AI',
 		description:
 			'Develop a website that consists of a chat with artificial intelligence that uses the OpenAI API, this chat is oriented to educational topics.',
-		image: '/projects/larri.png',
+		image: '/projects/larri.webp',
 		stack: [NextJSIcon, TailwindIcon, TypeScriptIcon],
 		url: 'https://larri-ai.netlify.app/'
 	},
