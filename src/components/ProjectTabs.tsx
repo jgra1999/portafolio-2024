@@ -21,7 +21,7 @@ export function ProjectTabs({ tabs }: Props) {
 						</Tab>
 					))}
 				</Tab.List>
-				<Tab.Panels className='mt-10'>
+				<Tab.Panels className='mt-10 min-h-[228px]'>
 					<Tab.Panel className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
 						{works.map((project) => (
 							<ProjectCard
