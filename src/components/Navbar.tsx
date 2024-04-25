@@ -88,7 +88,8 @@ export default function Navbar({ link1, link2, link3 }: Props) {
 										<GithubIcon />
 									</a>
 									<a
-										href='#'
+										href='https://wa.link/ucpuv1'
+										target='_blank'
 										className='block border border-white rounded-full p-1.5 opacity-80 active:opacity-100 lg:hover:opacity-100'
 									>
 										<WhatsappIcon />
