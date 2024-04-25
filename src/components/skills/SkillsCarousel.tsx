@@ -5,7 +5,6 @@ import {
 	CarouselNext,
 	CarouselPrevious
 } from '@/components/ui/carousel'
-import { ReactIcon } from '../Icons'
 import { skills } from '@/lib/skills'
 
 export function SkillsCarousel() {

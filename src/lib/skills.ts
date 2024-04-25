@@ -3,6 +3,7 @@ import {
 	GitIcon,
 	NextJSIcon,
 	NodeJSIcon,
+	PlaywrightIcon,
 	ReactIcon,
 	SupabaseIcon,
 	TailwindIcon,
@@ -11,12 +12,12 @@ import {
 
 export const skills = [
 	{
-		name: 'ReactJS',
-		icon: ReactIcon
-	},
-	{
 		name: 'NextJS',
 		icon: NextJSIcon
+	},
+	{
+		name: 'NodeJS',
+		icon: NodeJSIcon
 	},
 	{
 		name: 'Astro',
@@ -27,6 +28,10 @@ export const skills = [
 		icon: SupabaseIcon
 	},
 	{
+		name: 'ReactJS',
+		icon: ReactIcon
+	},
+	{
 		name: 'TypeScript',
 		icon: TypeScriptIcon
 	},
@@ -35,11 +40,11 @@ export const skills = [
 		icon: TailwindIcon
 	},
 	{
-		name: 'NodeJS',
-		icon: NodeJSIcon
-	},
-	{
 		name: 'Git',
 		icon: GitIcon
+	},
+	{
+		name: 'Playwright',
+		icon: PlaywrightIcon
 	}
 ]
