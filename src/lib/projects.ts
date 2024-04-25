@@ -52,17 +52,16 @@ export const projects = [
 ]
 
 export const clones = [
-	/*   
 	{
 		id: 1,
-		name: 'Premios Esland',
+		name: 'Twitter / X',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quo aliquam ratione ut repellat, necessitatibus sed sequi blanditiis quos! Blanditiis saepe voluptas earum corrupti quia possimus',
-		image: '/clones/esland.webp',
-		stack: [AstroIcon, ReactIcon, TailwindIcon, TypeScriptIcon],
-		url: '#'
+			'Clone of the main twitter page, has the login functionality so that people can post a tweetClone of the main twitter page, has the login functionality done with the supanase services so that people can post a tweet',
+		image: '/clones/x.webp',
+		stack: [NextJSIcon, TailwindIcon, TypeScriptIcon, SupabaseIcon],
+		url: 'https://github.com/jgra1999/x-clone'
 	},
-	*/
+
 	{
 		id: 2,
 		name: 'Spotify',
