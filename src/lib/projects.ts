@@ -1,5 +1,8 @@
 import {
 	AstroIcon,
+	CssIcon,
+	HTMLIcon,
+	JavaScriptIcon,
 	NextJSIcon,
 	ReactIcon,
 	SupabaseIcon,
@@ -70,5 +73,15 @@ export const clones = [
 		image: '/clones/spotify.png',
 		stack: [AstroIcon, ReactIcon, TailwindIcon, TypeScriptIcon],
 		url: '#'
+	},
+
+	{
+		id: 3,
+		name: 'Typing Game',
+		description:
+			'Project development to practice typing, without dependencies or frameworks, inspired by the monkeytype.com. website',
+		image: '/clones/typing-game.webp',
+		stack: [HTMLIcon, CssIcon, JavaScriptIcon],
+		url: 'https://superlative-kulfi-603cda.netlify.app/'
 	}
 ]
