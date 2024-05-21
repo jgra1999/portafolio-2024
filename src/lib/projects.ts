@@ -10,9 +10,10 @@ import {
 	TailwindIcon,
 	TypeScriptIcon
 } from '@/components/Icons'
+import { ProjectCards } from '@/types/project-cards'
 
 /* TODO: AGREGAR URL */
-export const works = [
+export const works: ProjectCards[] = [
 	{
 		id: 1,
 		name: 'The Culture Clan',
@@ -20,7 +21,8 @@ export const works = [
 			'I was hired to develop the website for a clothing brand that works in Valencia Venezuela and Medellin Colombia, I still make changes and add features.',
 		image: '/works/work-1.webp',
 		stack: [AstroIcon, ReactIcon, TailwindIcon, TypeScriptIcon],
-		url: 'https://thecultureclan.com'
+		web_url: 'https://thecultureclan.com',
+		github_url: 'https://github.com/jgra1999/the-culture-clan'
 	},
 	{
 		id: 2,
@@ -29,11 +31,12 @@ export const works = [
 			'Develop a website for a supplement and sporting goods store, the page serves as a catalog of the products and has a shopping cart.',
 		image: '/works/work-2.webp',
 		stack: [AstroIcon, ReactIcon, TailwindIcon, SupabaseIcon, TypeScriptIcon],
-		url: 'https://koalavzla.com/'
+		web_url: 'https://koalavzla.com/',
+		github_url: 'https://github.com/jgra1999/koala-store'
 	}
 ]
 
-export const projects = [
+export const projects: ProjectCards[] = [
 	{
 		id: 1,
 		name: 'Larri AI',
@@ -41,7 +44,8 @@ export const projects = [
 			'Develop a website that consists of a chat with artificial intelligence that uses the OpenAI API, this chat is oriented to educational topics.',
 		image: '/projects/larri.webp',
 		stack: [NextJSIcon, TailwindIcon, TypeScriptIcon],
-		url: 'https://larri-ai.netlify.app/'
+		web_url: 'https://larri-ai.netlify.app/',
+		github_url: 'https://github.com/jgra1999/larri-ai'
 	},
 	{
 		id: 2,
@@ -50,11 +54,12 @@ export const projects = [
 			'Development of a web application that has the functionality of uploading a PDF file that is stored in cloudinary and with the OCR addons extract the text to ask questions about the document to an artificial intelligence.',
 		image: '/projects/pdf-chat.webp',
 		stack: [AstroIcon, SvelteIcon, TailwindIcon, TypeScriptIcon],
-		url: 'https://larri-ai.netlify.app/'
+		web_url: 'https://larri-ai.netlify.app/',
+		github_url: 'https://github.com/jgra1999/pdf-chat-ia'
 	}
 ]
 
-export const clones = [
+export const clones: ProjectCards[] = [
 	{
 		id: 1,
 		name: 'Twitter / X',
@@ -62,7 +67,8 @@ export const clones = [
 			'Clone of the main twitter page, has the login functionality so that people can post a tweetClone of the main twitter page, has the login functionality done with the supanase services so that people can post a tweet',
 		image: '/clones/x.webp',
 		stack: [NextJSIcon, TailwindIcon, TypeScriptIcon, SupabaseIcon],
-		url: 'https://github.com/jgra1999/x-clone'
+		web_url: 'https://github.com/jgra1999/x-clone',
+		github_url: 'https://github.com/jgra1999/x-clone'
 	},
 
 	{
@@ -72,7 +78,8 @@ export const clones = [
 			'Development of a clone of the Spotify website with its basic functionalities, such as the music player with its controllers such as changing song or volume.',
 		image: '/clones/spotify.png',
 		stack: [AstroIcon, ReactIcon, TailwindIcon, TypeScriptIcon],
-		url: '#'
+		web_url: '#',
+		github_url: 'https://github.com/jgra1999/spotify-clone'
 	},
 
 	{
@@ -82,6 +89,18 @@ export const clones = [
 			'Project development to practice typing, without dependencies or frameworks, inspired by the monkeytype.com. website',
 		image: '/clones/typing-game.webp',
 		stack: [HTMLIcon, CssIcon, JavaScriptIcon],
-		url: 'https://superlative-kulfi-603cda.netlify.app/'
+		web_url: 'https://superlative-kulfi-603cda.netlify.app/',
+		github_url: 'https://github.com/jgra1999/typing-game'
+	},
+
+	{
+		id: 4,
+		name: 'Tinder Swipe',
+		description:
+			'Project made without dependencies or frameworks, this project is based on the effect of swipe of tinder when interacting with users images',
+		image: '/clones/tinder-swiper.webp',
+		stack: [HTMLIcon, CssIcon, JavaScriptIcon],
+		web_url: 'https://superlative-kulfi-603cda.netlify.app/',
+		github_url: 'https://github.com/jgra1999/tinder-swipe'
 	}
 ]
