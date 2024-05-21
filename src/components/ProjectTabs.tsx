@@ -30,7 +30,8 @@ export function ProjectTabs({ tabs }: Props) {
 								description={project.description}
 								image={project.image}
 								stack={project.stack}
-								url={project.url}
+								web_url={project.web_url}
+								github_url={project.github_url}
 							/>
 						))}
 					</Tab.Panel>
@@ -42,20 +43,23 @@ export function ProjectTabs({ tabs }: Props) {
 								description={project.description}
 								image={project.image}
 								stack={project.stack}
-								url={project.url}
+								web_url={project.web_url}
+								github_url={project.github_url}
 							/>
 						))}
 					</Tab.Panel>
 					<Tab.Panel className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
 						{clones.map((project) => (
-							<ProjectCard
-								key={project.id}
-								name={project.name}
-								description={project.description}
-								image={project.image}
-								stack={project.stack}
-								url={project.url}
-							/>
+							<div key={project.id}>
+								<ProjectCard
+									name={project.name}
+									description={project.description}
+									image={project.image}
+									stack={project.stack}
+									web_url={project.web_url}
+									github_url={project.github_url}
+								/>
+							</div>
 						))}
 					</Tab.Panel>
 				</Tab.Panels>
