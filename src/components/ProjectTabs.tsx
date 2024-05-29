@@ -15,7 +15,7 @@ export function ProjectTabs({ tabs }: Props) {
 					{tabs.map((tab, index) => (
 						<Tab
 							key={index}
-							className='ui-selected:bg-gradient-to-r from-violet-950 to-purple-900 py-2 px-4 rounded-tl-xl rounded-bl-xl outline-none'
+							className='ui-selected:bg-gradient-to-r from-violet-950 to-purple-900 py-2 px-4 rounded-xl outline-none'
 						>
 							{tab}
 						</Tab>
