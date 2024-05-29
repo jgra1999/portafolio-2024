@@ -8,11 +8,11 @@ import {
 	SupabaseIcon,
 	SvelteIcon,
 	TailwindIcon,
-	TypeScriptIcon
+	TypeScriptIcon,
+	WordpressIcon
 } from '@/components/Icons'
 import { ProjectCards } from '@/types/project-cards'
 
-/* TODO: AGREGAR URL */
 export const works: ProjectCards[] = [
 	{
 		id: 1,
@@ -33,6 +33,16 @@ export const works: ProjectCards[] = [
 		stack: [AstroIcon, ReactIcon, TailwindIcon, SupabaseIcon, TypeScriptIcon],
 		web_url: 'https://koalavzla.com/',
 		github_url: 'https://github.com/jgra1999/koala-store'
+	},
+	{
+		id: 3,
+		name: 'Alca Truck Service',
+		description:
+			'Develop a website for a company that works in the area of truck repair and maintenance in the United States.',
+		image: '/works/work-3.webp',
+		stack: [WordpressIcon, CssIcon],
+		web_url: 'https://alcatrucks.com/',
+		github_url: ''
 	}
 ]
 
@@ -76,9 +86,9 @@ export const clones: ProjectCards[] = [
 		name: 'Spotify',
 		description:
 			'Development of a clone of the Spotify website with its basic functionalities, such as the music player with its controllers such as changing song or volume.',
-		image: '/clones/spotify.png',
+		image: '/clones/spotify.webp',
 		stack: [AstroIcon, ReactIcon, TailwindIcon, TypeScriptIcon],
-		web_url: '#',
+		web_url: 'https://github.com/jgra1999/spotify-clone',
 		github_url: 'https://github.com/jgra1999/spotify-clone'
 	},
 

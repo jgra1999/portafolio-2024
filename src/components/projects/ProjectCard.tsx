@@ -49,22 +49,26 @@ export function ProjectCard({
 			</div>
 
 			<div className='mt-4 flex items-center gap-x-5'>
-				<a
-					href={web_url}
-					target='_blank'
-					className='py-2 px-4 border-2 border-white hover:border-purple-500 rounded-lg hover:text-purple-500 flex justify-center items-center gap-x-2'
-				>
-					<PageIcon />
-					<span>Demo</span>
-				</a>
-				<a
-					href={github_url}
-					target='_blank'
-					className='py-2 px-4 border-2 border-white hover:border-purple-500 rounded-lg hover:text-purple-500 flex justify-center items-center gap-x-2'
-				>
-					<GithubIcon2 />
-					Code
-				</a>
+				{web_url && (
+					<a
+						href={web_url}
+						target='_blank'
+						className='py-2 px-4 border-2 border-white hover:border-purple-500 rounded-lg hover:text-purple-500 flex justify-center items-center gap-x-2'
+					>
+						<PageIcon />
+						<span>Web</span>
+					</a>
+				)}
+				{github_url && (
+					<a
+						href={github_url}
+						target='_blank'
+						className='py-2 px-4 border-2 border-white hover:border-purple-500 rounded-lg hover:text-purple-500 flex justify-center items-center gap-x-2'
+					>
+						<GithubIcon2 />
+						Code
+					</a>
+				)}
 			</div>
 		</div>
 	)
