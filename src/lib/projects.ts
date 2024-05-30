@@ -110,7 +110,7 @@ export const clones: ProjectCards[] = [
 			'Project made without dependencies or frameworks, this project is based on the effect of swipe of tinder when interacting with users images',
 		image: '/clones/tinder-swiper.webp',
 		stack: [HTMLIcon, CssIcon, JavaScriptIcon],
-		web_url: 'https://superlative-kulfi-603cda.netlify.app/',
+		web_url: 'https://peaceful-semifreddo-17e88f.netlify.app/',
 		github_url: 'https://github.com/jgra1999/tinder-swipe'
 	}
 ]
