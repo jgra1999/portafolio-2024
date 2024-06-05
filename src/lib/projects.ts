@@ -9,8 +9,10 @@ import {
 	SvelteIcon,
 	TailwindIcon,
 	TypeScriptIcon,
+	VueIcon,
 	WordpressIcon
 } from '@/components/Icons'
+
 import { ProjectCards } from '@/types/project-cards'
 
 export const works: ProjectCards[] = [
@@ -64,8 +66,18 @@ export const projects: ProjectCards[] = [
 			'Development of a web application that has the functionality of uploading a PDF file that is stored in cloudinary and with the OCR addons extract the text to ask questions about the document to an artificial intelligence.',
 		image: '/projects/pdf-chat.webp',
 		stack: [AstroIcon, SvelteIcon, TailwindIcon, TypeScriptIcon],
-		web_url: 'https://larri-ai.netlify.app/',
+		web_url: '',
 		github_url: 'https://github.com/jgra1999/pdf-chat-ia'
+	},
+	{
+		id: 3,
+		name: 'Balling Sportwear',
+		description:
+			'This is a project I do during my college internships in 2021 for a sportswear store called Balling Sportwear.',
+		image: '/projects/balling.webp',
+		stack: [VueIcon, TailwindIcon, JavaScriptIcon],
+		web_url: 'https://balling-demo.netlify.app/',
+		github_url: 'https://github.com/jgra1999/balling-store.git'
 	}
 ]
 
