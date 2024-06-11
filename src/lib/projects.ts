@@ -18,6 +18,16 @@ import { ProjectCards } from '@/types/project-cards'
 export const works: ProjectCards[] = [
 	{
 		id: 1,
+		name: 'Isaac Sequera Portafolio',
+		description:
+			'Portfolio made for a graphic designer, the portfolio has animations made with pure CSS, currently you can not correctly appreciate the animations in IOS browsers, but in androids and computers they look correctly',
+		image: '/works/work-4.webp',
+		stack: [VueIcon, CssIcon, TypeScriptIcon],
+		web_url: 'https://isaac-portafolio-demo.netlify.app/',
+		github_url: 'https://github.com/jgra1999/isaac-sequera-portafolio'
+	},
+	{
+		id: 2,
 		name: 'The Culture Clan',
 		description:
 			'I was hired to develop the website for a clothing brand that works in Valencia Venezuela and Medellin Colombia, I still make changes and add features.',
@@ -27,7 +37,7 @@ export const works: ProjectCards[] = [
 		github_url: 'https://github.com/jgra1999/the-culture-clan'
 	},
 	{
-		id: 2,
+		id: 3,
 		name: 'Koala Fitness Store',
 		description:
 			'Develop a website for a supplement and sporting goods store, the page serves as a catalog of the products and has a shopping cart.',
@@ -37,7 +47,7 @@ export const works: ProjectCards[] = [
 		github_url: 'https://github.com/jgra1999/koala-store'
 	},
 	{
-		id: 3,
+		id: 4,
 		name: 'Alca Truck Service',
 		description:
 			'Develop a website for a company that works in the area of truck repair and maintenance in the United States.',
