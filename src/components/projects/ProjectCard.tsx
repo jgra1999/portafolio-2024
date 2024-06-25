@@ -27,7 +27,7 @@ export function ProjectCard({
 				  flex-col
 				  justify-center
 				  px-5
-				  bg-violet-950/50
+				  bg-violet-950/80
 				  absolute
 				  top-0
 				  h-full
