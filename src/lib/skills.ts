@@ -28,7 +28,7 @@ export const skills = [
 		icon: SupabaseIcon
 	},
 	{
-		name: 'ReactJS',
+		name: 'React | React Native',
 		icon: ReactIcon
 	},
 	{
