@@ -61,6 +61,16 @@ export const works: ProjectCards[] = [
 export const projects: ProjectCards[] = [
 	{
 		id: 1,
+		name: 'Aora App',
+		description:
+			'Project developed with React Native, It is an APP of a social network to share videos, with user registration and logic to upload videos to a database.',
+		image: '/projects/aora-app.webp',
+		stack: [ReactIcon, TailwindIcon, TypeScriptIcon],
+		web_url: '',
+		github_url: 'https://github.com/jgra1999/aora-app'
+	},
+	{
+		id: 2,
 		name: 'Larri AI',
 		description:
 			'Develop a website that consists of a chat with artificial intelligence that uses the OpenAI API, this chat is oriented to educational topics.',
@@ -70,7 +80,7 @@ export const projects: ProjectCards[] = [
 		github_url: 'https://github.com/jgra1999/larri-ai'
 	},
 	{
-		id: 2,
+		id: 3,
 		name: 'Chat With Your PDF IA',
 		description:
 			'Development of a web application that has the functionality of uploading a PDF file that is stored in cloudinary and with the OCR addons extract the text to ask questions about the document to an artificial intelligence.',
@@ -80,7 +90,7 @@ export const projects: ProjectCards[] = [
 		github_url: 'https://github.com/jgra1999/pdf-chat-ia'
 	},
 	{
-		id: 3,
+		id: 4,
 		name: 'Balling Sportwear',
 		description:
 			'This is a project I do during my college internships in 2021 for a sportswear store called Balling Sportwear.',
