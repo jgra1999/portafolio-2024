@@ -51,7 +51,7 @@ export const works: ProjectCards[] = [
 		id: 4,
 		name: 'Nexo create',
 		description:
-			'Develop a website for a company that works in the area of truck repair and maintenance in the United States.',
+			'Website created for a company that operates in the field of procedures in the United States and credit repair.',
 		image: '/works/work-5.webp',
 		stack: [WordpressIcon, CssIcon],
 		web_url: 'https://nexocreate.com/',
