@@ -23,17 +23,19 @@ export function ProjectTabs({ tabs }: Props) {
 				</Tab.List>
 				<Tab.Panels className='mt-10 min-h-[228px]'>
 					<Tab.Panel className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10'>
-						{works.map((project) => (
-							<ProjectCard
-								key={project.id}
-								name={project.name}
-								description={project.description}
-								image={project.image}
-								stack={project.stack}
-								web_url={project.web_url}
-								github_url={project.github_url}
-							/>
-						))}
+						{works
+							.map((project) => (
+								<ProjectCard
+									key={project.id}
+									name={project.name}
+									description={project.description}
+									image={project.image}
+									stack={project.stack}
+									web_url={project.web_url}
+									github_url={project.github_url}
+								/>
+							))
+							.reverse()}
 					</Tab.Panel>
 					<Tab.Panel className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10'>
 						{projects.map((project) => (
