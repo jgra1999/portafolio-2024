@@ -66,6 +66,16 @@ export const works: ProjectCards[] = [
 		stack: [WordpressIcon, CssIcon],
 		web_url: 'https://alcatrucks.com/',
 		github_url: ''
+	},
+	{
+		id: 6,
+		name: 'New The Culture Clan',
+		description:
+			'Redesign development for the website of Venezuelan clothing brand, The Culture Clan.',
+		image: '/works/new-tcc.webp',
+		stack: [AstroIcon, TailwindIcon, ReactIcon, SupabaseIcon, TypeScriptIcon],
+		web_url: 'https://thecultureclan.netlify.app/',
+		github_url: 'https://github.com/jgra1999/the-culture-clan'
 	}
 ]
 
