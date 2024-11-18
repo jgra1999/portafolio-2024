@@ -53,6 +53,26 @@ export default function Contact() {
 						</a>
 					</div>
 				</div>
+				<div className='flex flex-col items-center gap-y-5 text-left'>
+					<div className='flex gap-x-1 items-center'>
+						<span>
+							<DocumentTextIcon className='w-7 h-7' />
+						</span>
+						<h3 className='font-bold text-2xl'>Diploma React Advanced</h3>
+					</div>
+					<div className='flex gap-x-2 '>
+						<div className='bg-white/20 border border-white rounded-xl py-2 px-4 w-72 sm:w-96 text-start'>
+							Jose-Rojas-CV.pdf
+						</div>
+						<a
+							href='/diploma-react-avanzado.pdf'
+							target='_blank'
+							className='bg-white text-black rounded-xl px-4 flex items-center'
+						>
+							<DocumentMagnifyingGlassIcon className='w-6 h-6' />
+						</a>
+					</div>
+				</div>
 			</div>
 		</section>
 	)
