@@ -7,13 +7,13 @@
 
 	"Intro": {
 		"greetings": "Bienvenido a mi portafolio",
-		"aboutMe1": "Soy Jose Gabriel, empece a estudiar Ingeniería Informática por un amigo y descubrí el Desarrollo Web por casualidad con la única clase de Programación Web que vi en la universidad por que la profesora no asistió mas, desde entonces disfruto del desarrollo de experiencias web para usuarios.",
-		"aboutMe2": "Mi mayor logro es nunca rendirme aprendiendo Desarrollo Web en un país atrasado tecnológicamente y con una de las condiciones mas difíciles para crecer en el mundo de la tecnología."
+		"aboutMe1": "Soy Jose Gabriel, empecé a estudiar Ingeniería Informática por un amigo y quede fascinado con el Desarrollo Web con la primera clase, desde entonces disfruto del diseño y desarrollo de aplicaciones web tanto en el Front-End y como en el Back-End.",
+		"aboutMe2": "Me enorgullece no haberme rendido aprendiendo a programar en un país atrasado tecnológicamente y con una de las condiciones mas difíciles para crecer en el mundo de la tecnología."
 	},
 
 	"Projects": {
 		"title": "Proyectos",
-		"description": "Aquí hay algunos de mis proyectos mas recientes, entre ellos se encuentran tanto proyectos personales como trabajos realizados como freelancer haciendo uso de diferentes tecnologías como NextJS, Astro o Tailwindcss, entre otros. ",
+		"description": "Aquí hay algunos de mis proyectos más recientes, entre ellos se encuentran tanto proyectos personales como trabajos realizados como freelancer haciendo uso de diferentes tecnologías como NextJS, Astro o Tailwindcss, entre otros. ",
 		"tab1": "Trabajos",
 		"tab2": "Proyectos Personales",
 		"tab3": "Clones"

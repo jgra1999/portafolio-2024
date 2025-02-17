@@ -45,7 +45,7 @@ export default function Contact() {
 							Jose-Rojas-CV.pdf
 						</div>
 						<a
-							href='/Jose-Rojas-CV.pdf'
+							href='/jose-rojas-cv.pdf'
 							target='_blank'
 							className='bg-white text-black rounded-xl px-4 flex items-center'
 						>
