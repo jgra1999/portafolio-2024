@@ -1,16 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { GithubIcon2, PageIcon } from '../Icons'
 import { ProjectCards } from '@/types/project-cards'
 
 export function ProjectCard({
 	name,
 	description_es,
+	description_en,
 	image,
 	stack,
 	web_url,
 	github_url
 }: ProjectCards) {
+	const [language, setLanguage] = useState('')
+	useEffect(() => {
+		const pathname = window.location.pathname // Obtiene la ruta completa (ej: /en/pagina)
+		setLanguage(pathname.split('/')[1]) // Divide la ruta y obtiene el segundo segmento
+	}, [])
 	return (
 		<div>
 			<div className='relative overflow-hidden group'>
@@ -24,7 +30,9 @@ export function ProjectCard({
 
 			<div className='bg-[#0c0c0c]/70 py-5 px-4 text-start rounded-b-xl'>
 				<h4 className='font-bold text-2xl'>{name}</h4>
-				<p className='text-white text-sm mt-2'>{description_es}</p>
+				<p className='text-white text-sm mt-2'>
+					{language === 'en' ? description_en : description_es}
+				</p>
 				<div className='flex items-center gap-x-4 mt-6'>
 					{stack.map((IconComponent: any, index: number) => (
 						<IconComponent key={index} styles='w-6 h-6' />

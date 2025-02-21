@@ -29,7 +29,7 @@ export function ProjectTabs({ tabs }: Props) {
 									key={project.id}
 									name={project.name}
 									description_es={project.description_es}
-									description_en=''
+									description_en={project.description_en}
 									image={project.image}
 									stack={project.stack}
 									web_url={project.web_url}
@@ -44,7 +44,7 @@ export function ProjectTabs({ tabs }: Props) {
 								key={project.id}
 								name={project.name}
 								description_es={project.description_es}
-								description_en=''
+								description_en={project.description_en}
 								image={project.image}
 								stack={project.stack}
 								web_url={project.web_url}
@@ -58,7 +58,7 @@ export function ProjectTabs({ tabs }: Props) {
 								<ProjectCard
 									name={project.name}
 									description_es={project.description_es}
-									description_en=''
+									description_en={project.description_en}
 									image={project.image}
 									stack={project.stack}
 									web_url={project.web_url}
