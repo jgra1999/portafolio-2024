@@ -58,14 +58,14 @@ export default function Contact() {
 						<span>
 							<DocumentTextIcon className='w-7 h-7' />
 						</span>
-						<h3 className='font-bold text-2xl'>Diploma React Advanced</h3>
+						<h3 className='font-bold text-2xl'>Certificates</h3>
 					</div>
 					<div className='flex gap-x-2 '>
 						<div className='bg-white/20 border border-white rounded-xl py-2 px-4 w-72 sm:w-96 text-start'>
-							Jose-Rojas-CV.pdf
+							certificates.pdf
 						</div>
 						<a
-							href='/diploma-react-avanzado.pdf'
+							href='/certificates.pdf'
 							target='_blank'
 							className='bg-white text-black rounded-xl px-4 flex items-center'
 						>
