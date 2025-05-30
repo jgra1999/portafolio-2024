@@ -1,6 +1,7 @@
 import {
 	AstroIcon2,
 	GitIcon,
+	N8NIcon,
 	NextJSIcon,
 	NodeJSIcon,
 	PlaywrightIcon,
@@ -44,7 +45,7 @@ export const skills = [
 		icon: GitIcon
 	},
 	{
-		name: 'Playwright',
-		icon: PlaywrightIcon
+		name: 'N8N',
+		icon: N8NIcon
 	}
 ]
