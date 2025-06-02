@@ -1,6 +1,7 @@
 import {
 	AstroIcon2,
 	GitIcon,
+	MCPIcon,
 	N8NIcon,
 	NextJSIcon,
 	NodeJSIcon,
@@ -12,6 +13,10 @@ import {
 } from '@/components/Icons'
 
 export const skills = [
+	{
+		name: 'N8N',
+		icon: N8NIcon
+	},
 	{
 		name: 'NextJS',
 		icon: NextJSIcon
@@ -45,7 +50,7 @@ export const skills = [
 		icon: GitIcon
 	},
 	{
-		name: 'N8N',
-		icon: N8NIcon
+		name: 'Model Context Protocol',
+		icon: MCPIcon
 	}
 ]
